@@ -1,0 +1,14 @@
+baseurl: https://purgecss-test.christianoliff.com/
+title: Blog
+
+disableKinds: ["taxonomy", "taxonomyTerm", "sitemap", "404", "RSS"]
+
+publishDir: docs/
+
+# https://gohugo.io/getting-started/configuration/#configure-minify
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepQuotes: true
+      keepWhitespace: true
